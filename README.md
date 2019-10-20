@@ -24,10 +24,10 @@ $ yarn generate
 ---
 ## Deploy as an SPA/PWA on Google Cloud App Engine:
 
-####Configuration:
+#### Configuration:
 * `app.yaml` has already been created for you in the root directory, this is your deployment configuration for Google App Engine
 
-####Setup:
+#### Setup:
 * Install and Setup the Google Cloud SDK
 -- <https://cloud.google.com/sdk/docs/quickstarts>
 
@@ -39,5 +39,5 @@ From the command line in your project root directory:
 `$ gcloud app deploy app.yaml --project [project-id]`
 
 #### See Also:
-####<https://nuxtjs.org/faq/appengine-deployment>
+#### <https://nuxtjs.org/faq/appengine-deployment>
 ---
