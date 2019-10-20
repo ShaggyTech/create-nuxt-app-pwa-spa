@@ -1,12 +1,36 @@
-# Barebones 'create-nuxt-app' project setup for @nuxtjs/pwa SPA build
+# NuxtJS SPA + PWA Starter Template
 
+> Barebones 'create-nuxt-app' project setup for @nuxtjs/pwa SPA build
+
+---
 #### Purpose:
 Solves a problem with development mode playing nice with @nuxtjs/pwa module - as described in this issue: <https://github.com/nuxt-community/pwa-module/issues/219>
+
+#### Features:
+
+* Slightly modified `create-nuxt-app` barebones project
+
+* Nuxt has been upgraded from version `2.0.0` in the base `create-nuxt-app` to version `2.10.1`
+
+* @nuxtjs/pwa version `3.0.0-beta.19`
+
+* Setup for deployment to Google Cloud App Engine
+
+* Installable as an online/offline app to your device or desktop
 
 ---
 ## Build Setup
 
+- First clone this repository:
+`$ git clone https://github.com/ShaggyTech/create-nuxt-app-pwa-spa.git`
+
 ```bash
+# clone this repository
+$ git clone https://github.com/ShaggyTech/create-nuxt-app-pwa-spa.git
+
+# cd into the project directory
+$ cd create-nuxt-app-pwa-spa
+
 # install dependencies
 $ yarn install
 
@@ -39,5 +63,13 @@ From the command line in your project root directory:
 `$ gcloud app deploy app.yaml --project [project-id]`
 
 #### See Also:
+
 #### <https://nuxtjs.org/faq/appengine-deployment>
+
 ---
+
+### Live Version:
+
+See this repo deployed and live on Google App Engine:
+
+### <https://pwa-nuxt.appspot.com/>
