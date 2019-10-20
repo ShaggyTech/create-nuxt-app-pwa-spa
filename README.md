@@ -31,9 +31,6 @@ This should theoretically clear the service worker at the same time, but sometim
 ---
 ## Build Setup
 
-- First clone this repository:
-`$ git clone https://github.com/ShaggyTech/create-nuxt-app-pwa-spa.git`
-
 ```bash
 # clone this repository
 $ git clone https://github.com/ShaggyTech/create-nuxt-app-pwa-spa.git
