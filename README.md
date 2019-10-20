@@ -18,6 +18,16 @@ Solves a problem with development mode playing nice with @nuxtjs/pwa module - as
 
 * Installable as an online/offline app to your device or desktop
 
+#### Caveats:
+
+##### Service Workers won't update automatically in Development Mode and could cause issues with Hot Module Reloading (HMR):
+
+Pay attention to the warnings from @nuxtjs/pwa about clearing your cache and removing old service workers.  
+
+If using Google Chrome, in the `Application` tab of the Chrome Dev Tools, in the `Service Wokers` section, you should see a checkbox for `update on reload` option, make sure that is checked.  Also make sure you go to the `Clear Cache` section and clear the browser cache.
+
+This should theoretically clear the service worker at the same time, but sometimes you still have to manually `stop` the sw.js, under the `Service Workers` section, in order to allow the most recent `sw.js` to load properly.
+
 ---
 ## Build Setup
 
