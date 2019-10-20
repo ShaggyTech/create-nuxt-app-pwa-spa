@@ -2,7 +2,7 @@
 # Google Cloud Engine Deployment Config for a Nuxt application
 #
 # - See also: https://nuxtjs.org/faq/appengine-deployment
-# - Line #16 and #17 have been modified from the original
+# - Line #18 and #20 have been modified from the original
 #   to allow for sw.js file to be uploaded by the that handler
 ##############################################################
 
